@@ -2,6 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+baselines
+experiments
+hgfile
+pangolin_models
+py36hgfile
+RefSplice_models
+tmp_vcf
+pangolin_human_models
+RefSplice_models_human
 
 # C extensions
 *.so
