@@ -56,7 +56,7 @@ def main():
         # load data
         test_data = DataLoader(MutGenerator(
             EL=config.EL, jsonfile=path
-        ), batch_size=1, shuffle=False, num_workers=1)
+        ), batch_size=1, shuffle=False, num_workers=5)
         # evaluation mutations
         Pred_ref = []
         Pred_delta = []
