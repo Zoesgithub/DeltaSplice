@@ -52,7 +52,9 @@ Code for the paper "Reference-informed prediction of alternative splicing and sp
 2. Write the config file following experiments/2_eval_mut/RefSplice_mut_config.py.
 3. Generate file with:
 >>>
-    python -m Tools.generate_mutdata data/VexSeq_snps2exon_ref_dataset.txt data/vexseq/ hg19 
+    python -m Tools.generate_mutdata /path/to/data /path/to/save reference genome
+    # example
+    # python -m Tools.generate_mutdata data/VexSeq_snps2exon_ref_dataset.txt data/vexseq/ hg19 
 >>>
 4. Run the valuation with:
 >>>
